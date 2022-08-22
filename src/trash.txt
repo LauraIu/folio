@@ -1,0 +1,21 @@
+refce + enter =
+
+import React from 'react'
+
+const index = () => {
+  return (
+    <div>index</div>
+  )
+}
+
+export default index
+
+///////////////////////////////////
+
+install styled components --> npm install --save styled-components
+
+install react-router --> npm install react-router-dom
+
+install react-icons --> npm install react-icons --save
+
+instal react-scroll --> npm install react-scroll
