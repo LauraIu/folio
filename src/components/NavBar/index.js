@@ -8,15 +8,17 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  NavBtn,
+  NavBtnLink
 } from "./NavBarElements";
 
-const NavBar = () => {
+const Navbar = ({toggle}) => {
   return (
     <>
       <Nav>
         <NavBarContainer>
           <NavLogo to="/">IuLa</NavLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
@@ -24,7 +26,7 @@ const NavBar = () => {
               <NavLinks to='about'>About</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="discover">Discover</NavLinks>
+              <NavLinks to='discover'>Discover</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="services">Services</NavLinks>
@@ -33,10 +35,13 @@ const NavBar = () => {
               <NavLinks to="signup">Sign Up</NavLinks>
             </NavItem>
           </NavMenu>
+          <NavBtn>
+            <NavBtnLink to="/signin">Sign In</NavBtnLink>
+          </NavBtn>
         </NavBarContainer>
       </Nav>
     </>
   );
 };
 
-export default NavBar;
+export default Navbar;
