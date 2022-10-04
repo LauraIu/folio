@@ -1,5 +1,7 @@
 import React from "react";
-import { Button } from "../ButtonElements";
+import { ButtonToUrl } from "../ButtonElements";
+import { MdOpenInNew } from "react-icons/md";
+
 import {
   InfoContainer,
   InfoWrapper,
@@ -24,12 +26,14 @@ const InfoSection = ({
   headLine,
   darkText,
   description,
-  buttonLabel,
+  buttonLabel1,
+  buttonLabel2,
   img,
   alt,
   dark,
   primary,
-  
+  projectUrl1,
+  projectUrl2,
 }) => {
   return (
     <>
@@ -42,18 +46,29 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headLine}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button
-                    to="home"
-                    smooth={true}
-                    duration={500}
-                    spy={true}
-                    exact="true"
-                    offset={-80}
+                  <ButtonToUrl
+                    as="a"
+                    href={projectUrl1}
+                    target="_blank"
+                    rel="noreferrer"
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
+                    
                   >
-                    {buttonLabel}
-                  </Button>
+                    {buttonLabel1}	&#160;<MdOpenInNew />
+                  </ButtonToUrl>
+                  <ButtonToUrl
+                    as="a"
+                    href={projectUrl2}
+                    target="_blank"
+                    rel="noreferrer"
+                    primary={primary ? 1 : 0}
+                    dark={dark ? 1 : 0}
+                    
+                  >
+                    {buttonLabel2}	&#160;<MdOpenInNew />
+                  </ButtonToUrl>
+                  
                 </BtnWrap>
               </TextWrapper>
             </Column1>

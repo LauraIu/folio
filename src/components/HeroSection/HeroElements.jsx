@@ -7,8 +7,8 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 30 px;
-  height: 800px;
+  padding: 0 30px;
+  height: 100vh;
   position: relative;
   z-index: 1;
 
@@ -22,10 +22,10 @@ export const HeroContainer = styled.div`
 
     background: linear-gradient(
         180deg,
-        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.2) 100%
       ),
-      linear-gradient(180deg, rgba(0, 0, 0.2) 0%, transparent 80%);
+      linear-gradient(180deg, rgba(0, 0, 0.2) 0%, transparent 70%);
     z-index: 2;
   }
   /* border: 1px solid blue; */

@@ -13,7 +13,8 @@ export const Nav = styled.nav`
   top: 0;
   z-index: 10;
 
-  background: #010606;
+  /* background: #010606; */
+  background: ${({ scrollNav }) => (scrollNav ? "#010606" : "transparent")};
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -43,6 +44,7 @@ export const NavLogo = styled(LinkRouter)`
   text-decoration: none;
   color: #fff;
 `;
+
 export const MobileIcon = styled.div`
   display: none;
 
@@ -55,7 +57,12 @@ export const MobileIcon = styled.div`
     font-size: 1.8rem;
     cursor: pointer;
 
-    color: #fff;
+    color: #f9f9f9;
+  }
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    color: #0fc7db;
   }
 `;
 
@@ -86,36 +93,38 @@ export const NavLinks = styled(LinkScroll)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #01bf71;
+    border-bottom: 3px solid #0fc7db;
   }
 `;
 
- export const NavBtn = styled.nav`
- display: flex;
- align-items: center;
+export const NavBtn = styled.nav`
+  display: flex;
+  align-items: center;
 
- @media screen and (max-width:768px) {
-  display: none;
- }
- `
- export const NavBtnLink = styled(LinkRouter)`
- white-space: nowrap;
- padding: 10px 20px;
- color: #010606;
- font-size: 16px;
- text-decoration: none;
- outline: none;
- border: none;
- background: #0fc7db;
- border-radius: 50px;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
 
- cursor: pointer;
- transition: all 0.2s ease-in-out;
-
- &:hover {
-  transition: all 0.2s ease-in-out;
-  background: #fff;
+export const NavBtnLink = styled(LinkRouter)`
+  white-space: nowrap;
+  padding: 10px 20px;
   color: #010606;
- }
+  font-size: 16px;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: #0fc7db;
+  border-radius: 50px;
 
- `
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
+  }
+`;
+
+

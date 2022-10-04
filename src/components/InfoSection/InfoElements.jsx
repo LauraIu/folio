@@ -20,6 +20,7 @@ export const InfoWrapper = styled.div`
   padding: 0 24px;
   justify-content: center;
 `;
+
 export const InfoRow = styled.div`
   /* border: 1px solid red; */
   display: grid;
@@ -33,6 +34,7 @@ export const InfoRow = styled.div`
       imgStart ? `"col1" "col2"` : `"col1 col1" "col2 col2"`};
   }
 `;
+
 export const Column1 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
@@ -92,11 +94,18 @@ export const Subtitle = styled.p`
 export const BtnWrap = styled.div`
   display: flex;
   justify-content: flex-start;
+  
+
+  @media screen and (max-width:480px){
+    flex-wrap: wrap;
+  }
 `;
+
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
 `;
+
 export const Img = styled.img`
   width: 90%;
   margin: 0 0 10px 0;
