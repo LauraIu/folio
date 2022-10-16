@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Video from "../../videos/video_09.mp4";
+import Video from "../../videos/video_07.mp4";
 import { Button } from "../ButtonElements";
 import {
   HeroContainer,
@@ -39,11 +39,11 @@ const HeroSection = () => {
             primary="true"
             dark="true"
 
-            smooth={true}
+            smooth
             duration={500}
-            spy={true}
+            spy
             exact="true"
-            offset={-80}
+            offset={-30}
           >
             Get to know me better {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>

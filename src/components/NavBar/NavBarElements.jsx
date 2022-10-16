@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link as LinkRouter } from "react-router-dom";
-import { Link as LinkScroll } from "react-scroll";
+import { HashLink as Link } from "react-router-hash-link";
 
 export const Nav = styled.nav`
   display: flex;
@@ -12,7 +12,7 @@ export const Nav = styled.nav`
   margin-top: -80px;
   top: 0;
   z-index: 10;
-
+ 
   /* background: #010606; */
   background: ${({ scrollNav }) => (scrollNav ? "#010606" : "transparent")};
 
@@ -42,7 +42,7 @@ export const NavLogo = styled(LinkRouter)`
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
-  color: #fff;
+  color: #728775;
 `;
 
 export const MobileIcon = styled.div`
@@ -57,12 +57,12 @@ export const MobileIcon = styled.div`
     font-size: 1.8rem;
     cursor: pointer;
 
-    color: #f9f9f9;
+    color: #728775;
   }
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    color: #0fc7db;
+    color: #e5b507;
   }
 `;
 
@@ -83,17 +83,21 @@ export const NavItem = styled.li`
   /* border: 1px solid red; */
 `;
 
-export const NavLinks = styled(LinkScroll)`
+export const NavLinks = styled(Link)`
   display: flex;
   align-items: center;
   height: 100%;
   padding: 0 1rem;
   text-decoration: none;
-  color: #fff;
+  color: #728775;
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #0fc7db;
+    border-bottom: 3px solid #e5b507;
+  }
+
+  &:hover{
+    color:#e5b507;
   }
 `;
 
@@ -108,21 +112,21 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkRouter)`
   white-space: nowrap;
-  padding: 10px 20px;
-  color: #010606;
+  padding: 5px 15px;
+  color: #728775;
   font-size: 16px;
   text-decoration: none;
   outline: none;
-  border: none;
-  background: #0fc7db;
-  border-radius: 50px;
+  border: 1px solid #728775;
+  background: transparent;
+  border-radius: 2px;
 
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
+    background: #728775;
     color: #010606;
   }
 `;

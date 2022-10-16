@@ -4,6 +4,7 @@ import InfoSection from "../components/InfoSection";
 import {
   About,
   DevProjects,
+  DevProjects2,
   Contact
 } from "../components/InfoSection/Data";
 import Navbar from "../components/Navbar";
@@ -26,6 +27,7 @@ const Home = () => {
 
       <InfoSection {...About} />
       <InfoSection {...DevProjects} />
+      <InfoSection {...DevProjects2} />
       <OtherStuff />
       <InfoSection {...Contact} />
 

@@ -16,28 +16,22 @@ const Other = () => {
   return (
     <>
       <OtherContainer id="other">
-        <OtherH1>Other Past Projects</OtherH1>
+        <OtherH1>Other Projects from the Past</OtherH1>
         <OtherWrapper>
           <OtherCard>
             <OtherIcon src={Icon_01} />
-            <OtherH2>Old web and design projects</OtherH2>
-            <OtherP>
-              Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.
-            </OtherP>
+            <OtherH2>Old web and design works</OtherH2>
+            <OtherP>Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.</OtherP>
           </OtherCard>
           <OtherCard>
             <OtherIcon src={Icon_02} />
             <OtherH2>Art related projects</OtherH2>
-            <OtherP>
-              Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.
-            </OtherP>
+            <OtherP>Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.</OtherP>
           </OtherCard>
           <OtherCard>
             <OtherIcon src={Icon_03} />
             <OtherH2>Otherrr</OtherH2>
-            <OtherP>
-              Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.
-            </OtherP>
+            <OtherP>Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.</OtherP>
           </OtherCard>
         </OtherWrapper>
       </OtherContainer>

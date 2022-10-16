@@ -35,12 +35,12 @@ padding: 0 50px;
 `;
 
 export const OtherCard = styled.div`
-  background: #f9f9f9;
+  background: #728775;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 2px;
   max-height: 340px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -59,12 +59,12 @@ export const OtherIcon = styled.img`
 `;
 
 export const OtherH1 = styled.h1`
-  font-size: 2.5rem;
-  color: #fff;
+  font-size: 40px;
+  color: #728775;
   margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {
-    font-size: 2rem;
+    font-size: 32px;
   }
 `;
 

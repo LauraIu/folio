@@ -46,11 +46,12 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headLine}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
+               
                   <ButtonToUrl
                     as="a"
                     href={projectUrl1}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener"
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
                     
@@ -61,7 +62,7 @@ const InfoSection = ({
                     as="a"
                     href={projectUrl2}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener"
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
                     

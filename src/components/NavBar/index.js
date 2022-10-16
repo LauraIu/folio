@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 // import { IconContext } from "react-icons";
-import { animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll/modules";
 import { FaBars } from "react-icons/fa"; /* https://react-icons.github.io/react-icons/search?q=bars*/
 import {
   Nav,
@@ -43,7 +43,7 @@ const Navbar = ({ toggle }) => {
       {/* On scroll set the Nav background-color to transparent */}
       <Nav scrollNav={scrollNav}>
         <NavBarContainer>
-          <NavLogo to="/" onClick={toggleHome}>
+          <NavLogo to="#home" onClick={toggleHome}>
             IuLa
           </NavLogo>
           <MobileIcon onClick={toggle}>
@@ -52,10 +52,10 @@ const Navbar = ({ toggle }) => {
           <NavMenu>
             <NavItem>
               <NavLinks
-                to="about"
-                smooth={true}
+                to="#about"
+                smooth
                 duration={500}
-                spy={true}
+               
                 exact="true"
                 offset={-80}
               >
@@ -64,10 +64,10 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="projects"
-                smooth={true}
+                to="#projects"
+                smooth
                 duration={500}
-                spy={true}
+               
                 exact="true"
                 offset={-80}
               >
@@ -76,10 +76,10 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="other"
-                smooth={true}
+                to="#other"
+                smooth
                 duration={500}
-                spy={true}
+                
                 exact="true"
                 offset={-80}
               >
@@ -88,10 +88,10 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="contact"
-                smooth={true}
+                to="#contact"
+                smooth
                 duration={500}
-                spy={true}
+                
                 exact="true"
                 offset={-80}
               >

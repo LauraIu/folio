@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { FaTimes } from "react-icons/fa";
-import { Link as LinkScroll } from "react-scroll";
+import { HashLink as Link } from "react-router-hash-link";
 import { Link as LinkRouter } from "react-router-dom";
 
 export const SidebarContainer = styled.aside`
@@ -8,7 +8,7 @@ export const SidebarContainer = styled.aside`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: #0d0d0d;
+  background: #010606;
   align-items: center;
   top: 0;
   left: 0;
@@ -21,7 +21,11 @@ export const SidebarContainer = styled.aside`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-  color: #f9f9f9;
+  color: #728775;
+  
+  &:hover {
+    color: #e5b507;
+  }
 `;
 
 export const Icon = styled.div`
@@ -35,7 +39,8 @@ export const Icon = styled.div`
 `;
 
 export const SidebarWrapper = styled.div`
-  color: #fff;
+  color: #728775;
+  padding-top:24px;
 `;
 
 export const SidebarMenu = styled.ul`
@@ -49,7 +54,7 @@ export const SidebarMenu = styled.ul`
   }
 `;
 
-export const SidebarLink = styled(LinkScroll)`
+export const SidebarLink = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,11 +62,11 @@ export const SidebarLink = styled(LinkScroll)`
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
-  color: #f9f9f9;
+  color: #728775;
   cursor: pointer;
 
   &:hover {
-    color: #0fc7db;
+    color: #e5b507;
     transition: 0.2s ease-in-out;
   }
 `;
@@ -72,21 +77,21 @@ export const SideBtnWrap = styled.div`
 `;
 
 export const SidebarRoute = styled(LinkRouter)`
-  border-radius: 50px;
-  background: #0fc7db;
+  border-radius: 2px;
+  background: transparent;
   white-space: nowrap;
-  padding: 16px 64px;
-  color: #010606;
-  font-size: 16px;
+  padding: 10px 20px;
+  color: #728775;
+  font-size: 24px;
   outline: none;
-  border: none;
+  border: 1px solid #728775;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #f9f9f9;
-    color: #0fc7db;
+    background: #728775;
+    color: #010606;
   }
 `;
