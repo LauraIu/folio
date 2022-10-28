@@ -12,6 +12,7 @@ import {
   TopLine,
   Heading,
   Subtitle,
+  Link,
   BtnWrap,
   ImgWrap,
   Img,
@@ -26,8 +27,11 @@ const InfoSection = ({
   headLine,
   darkText,
   description,
+  description2,
   buttonLabel1,
   buttonLabel2,
+  urlLink,
+  linkText,
   img,
   alt,
   dark,
@@ -44,9 +48,20 @@ const InfoSection = ({
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headLine}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle darkText={darkText} >
+                  {description}
+                  <Link
+                    href={urlLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    dark={dark ? 1 : 0}
+                  >
+                    {linkText}
+                  </Link>
+                  {description2}
+                </Subtitle>
+
                 <BtnWrap>
-               
                   <ButtonToUrl
                     as="a"
                     href={projectUrl1}
@@ -54,9 +69,9 @@ const InfoSection = ({
                     rel="noopener"
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
-                    
                   >
-                    {buttonLabel1}	&#160;<MdOpenInNew />
+                    {buttonLabel1} &#160;
+                    <MdOpenInNew />
                   </ButtonToUrl>
                   <ButtonToUrl
                     as="a"
@@ -65,11 +80,10 @@ const InfoSection = ({
                     rel="noopener"
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
-                    
                   >
-                    {buttonLabel2}	&#160;<MdOpenInNew />
+                    {buttonLabel2} &#160;
+                    <MdOpenInNew />
                   </ButtonToUrl>
-                  
                 </BtnWrap>
               </TextWrapper>
             </Column1>

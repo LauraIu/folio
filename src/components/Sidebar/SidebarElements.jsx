@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { FaTimes } from "react-icons/fa";
 import { HashLink as Link } from "react-router-hash-link";
-import { Link as LinkRouter } from "react-router-dom";
+// import { Link as LinkRouter } from "react-router-dom";
 
 export const SidebarContainer = styled.aside`
   position: fixed;
@@ -46,11 +46,11 @@ export const SidebarWrapper = styled.div`
 export const SidebarMenu = styled.ul`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 80px);
+  grid-template-rows: repeat(5, 80px);
   text-align: center;
 
   @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(6, 60px);
+    grid-template-rows: repeat(5, 60px);
   }
 `;
 
@@ -76,7 +76,7 @@ export const SideBtnWrap = styled.div`
   justify-content: center;
 `;
 
-export const SidebarRoute = styled(LinkRouter)`
+export const SidebarRoute = styled(Link)`
   border-radius: 2px;
   background: transparent;
   white-space: nowrap;

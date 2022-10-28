@@ -110,7 +110,7 @@ export const NavBtn = styled.nav`
   }
 `;
 
-export const NavBtnLink = styled(LinkRouter)`
+export const NavBtnLink = styled(Link)`
   white-space: nowrap;
   padding: 5px 15px;
   color: #728775;

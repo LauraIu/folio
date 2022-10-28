@@ -44,6 +44,9 @@ export const ButtonToUrl = styled.button`
 
   @media screen and (max-width: 480px) {
     margin-bottom: 16px;
+    
+    /* button text wrap */
+    white-space: normal;
   }
 
   &:hover {

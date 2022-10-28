@@ -2,15 +2,17 @@ import React from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages";
-import SigninPage from "./pages/signin";
+import ContactPage from "./pages/contact";
+
 
 function App() {
   return (
-    <Routes>
+   <Routes>
       <Route path="/" element={<Home />} />
 
-      <Route path="/signin" element={<SigninPage />} />
+      <Route path="/contact" element={<ContactPage/>} />
     </Routes>
+    
   );
 }
 

@@ -28,11 +28,11 @@ const Sidebar = ({ isOpen, toggle }) => {
             OtherStuff
           </SidebarLink>
           <SidebarLink to="#contact" smooth onClick={toggle}>
-            Contact
+            CV
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/signin" >Sign In</SidebarRoute>
+          <SidebarRoute to="#contact" >Contact me</SidebarRoute>
         </SideBtnWrap>
 
       </SidebarWrapper>

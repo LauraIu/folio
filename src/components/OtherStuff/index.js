@@ -1,7 +1,7 @@
 import React from "react";
-import Icon_01 from "../../images/svg-2.svg";
-import Icon_02 from "../../images/svg-7.svg";
-import Icon_03 from "../../images/svg-10.svg";
+import webworks from "../../images/webworks.png";
+import IuLa_profil from "../../images/Iuga_Laura_portrait_04.png";
+import OtherWorks_IuLa from "../../images/OtherWorks_IuLa.png";
 import {
   OtherContainer,
   OtherH1,
@@ -17,21 +17,22 @@ const Other = () => {
     <>
       <OtherContainer id="other">
         <OtherH1>Other Projects from the Past</OtherH1>
+        <OtherP>This section is under construction!</OtherP>
         <OtherWrapper>
           <OtherCard>
-            <OtherIcon src={Icon_01} />
-            <OtherH2>Old web and design works</OtherH2>
-            <OtherP>Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.</OtherP>
+            <OtherIcon src={webworks} />
+            <OtherH2>Web and design works</OtherH2>
+            {/* <OtherP>Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.</OtherP> */}
           </OtherCard>
           <OtherCard>
-            <OtherIcon src={Icon_02} />
+            <OtherIcon src={IuLa_profil} />
             <OtherH2>Art related projects</OtherH2>
-            <OtherP>Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.</OtherP>
+            {/* <OtherP>Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.</OtherP> */}
           </OtherCard>
           <OtherCard>
-            <OtherIcon src={Icon_03} />
-            <OtherH2>Otherrr</OtherH2>
-            <OtherP>Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.</OtherP>
+            <OtherIcon src={OtherWorks_IuLa} />
+            <OtherH2>Inbetween stuff</OtherH2>
+            {/* <OtherP>Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.</OtherP> */}
           </OtherCard>
         </OtherWrapper>
       </OtherContainer>

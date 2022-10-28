@@ -19,3 +19,11 @@ install react-router --> npm install react-router-dom
 install react-icons --> npm install react-icons --save
 
 instal react-scroll --> npm install react-scroll
+//
+
+
+contact form ->> https://www.abstractapi.com/guides/react-send-email-from-your-app-without-a-backend
+
+
+https://javascript.plainenglish.io/how-to-build-a-contact-form-in-react-that-sends-emails-using-emailjs-70011d2563a3
+

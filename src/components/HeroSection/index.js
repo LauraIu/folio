@@ -26,10 +26,10 @@ const HeroSection = () => {
         <VideoBackground autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBackground>
       <HeroContent>
-        <HeroTitle>Hello!</HeroTitle>
+        <HeroTitle>Hi there!</HeroTitle>
         <HeroP>
-          I am a Front-End Developer and I'm open to explore new experienses
-          working for or with You!{" "}
+          I am a Front-End Developer  open to explore new experiences
+          working for or with You! {" "}
         </HeroP>
         <HeroBtnWrapper>
           <Button 

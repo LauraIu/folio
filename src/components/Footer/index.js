@@ -4,8 +4,6 @@ import {
   FaGithub,
   FaFacebook,
   FaLinkedin,
-  FaTwitter,
-  FaYoutube,
 } from "react-icons/fa";
 import {
   FooterContainer,
