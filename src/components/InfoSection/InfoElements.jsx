@@ -7,8 +7,6 @@ export const InfoContainer = styled.div`
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
-
-
 `;
 
 export const InfoWrapper = styled.div`
@@ -97,17 +95,16 @@ export const Link = styled.a`
 
   &:hover {
     background-color: #e5b507;
-    padding:0 1px;
+    padding: 0 1px;
     text-decoration: none;
   }
-`
+`;
 
 export const BtnWrap = styled.div`
   display: flex;
   justify-content: flex-start;
-  
 
-  @media screen and (max-width:480px){
+  @media screen and (max-width: 480px) {
     flex-wrap: wrap;
   }
 `;
@@ -122,6 +119,5 @@ export const Img = styled.img`
   width: 100%;
   margin: 20 0 20px 0;
   padding-right: 0;
-  border-radius:4px;
+  border-radius: 4px;
 `;
-

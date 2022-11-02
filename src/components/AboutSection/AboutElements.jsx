@@ -7,18 +7,18 @@ export const AboutContainer = styled.div`
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
-
-
 `;
 
 export const AboutWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  /* height: 860px; */
+  height:auto;
   width: 100%;
   max-width: 1100px;
   margin: auto;
-  padding: 8px 24px;
+  /* padding: 8px 24px; */
+  padding: 120px 24px 80px 24px;
   justify-content: center;
 `;
 
@@ -27,12 +27,10 @@ export const AboutRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
-  grid-template-areas: ${({ imgStart }) =>
-    imgStart ? `"col2 col1"` : `"col1 col2"`};
+  grid-template-areas: "col1 col2";
 
   @media screen and (max-width: 768px) {
-    grid-template-areas: ${({ imgStart }) =>
-      imgStart ? `"col1" "col2"` : `"col1 col1" "col2 col2"`};
+    grid-template-areas: "col1 col1" "col2 col2";
   }
 `;
 
@@ -63,7 +61,7 @@ export const TextWrapper = styled.div`
 export const TopLine = styled.p`
   color: #e5b507;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 14px;
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
@@ -73,8 +71,8 @@ export const TopLine = styled.p`
 `;
 
 export const Heading = styled.h1`
-  margin-bottom: 24px;
-  font-size: 35px;
+  margin-bottom: 20px;
+  font-size: 30px;
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? "#f8f8f8" : "#728775")};
@@ -85,7 +83,7 @@ export const Heading = styled.h1`
 `;
 
 export const AboutSubtitle = styled.p`
-  width: 440px;
+  max-width: 440px;
   margin-bottom: 35px;
   font-size: 14px;
   line-height: 24px;
@@ -97,32 +95,29 @@ export const Link = styled.a`
 
   &:hover {
     background-color: #e5b507;
-    padding:0 1px;
+    padding: 0 1px;
     text-decoration: none;
   }
-`
+`;
 
 export const BtnWrap = styled.div`
   display: flex;
   justify-content: flex-start;
-  margin-top: 15px;
-  margin-left:8%;
-  
 
-  @media screen and (max-width:480px){
+  @media screen and (max-width: 480px) {
     flex-wrap: wrap;
   }
 `;
 
 export const ImgWrap = styled.div`
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 555px;
+  max-height: 555px;
   height: 100%;
 `;
 
 export const Img = styled.img`
   width: 100%;
   margin: 20 0 20px 0;
-  border-radius:4px;
+  padding-right: 0;
+  border-radius: 4px;
 `;
-

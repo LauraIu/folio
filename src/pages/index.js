@@ -12,7 +12,7 @@ import {
 } from "../components/InfoSection/Data";
 import Navbar from "../components/Navbar";
 import AboutSection from "../components/AboutSection";
-import {About, Skills} from "../components/AboutSection/AboutData";
+import {About} from "../components/AboutSection/AboutData";
 import OtherStuff from "../components/OtherStuff";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
@@ -30,7 +30,7 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <AboutSection {...About}/>
-      <AboutSection {...Skills}/>
+      {/* <AboutSection {...Skills}/> */}
       {/* <InfoSection {...About} /> */}
       <InfoSection {...PortfolioPage} />
       <InfoSection {...BookTable} />

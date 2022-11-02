@@ -56,6 +56,35 @@ export const ButtonToUrl = styled.button`
   }
 `;
 
+export const ButtonToCv = styled.button`
+  border-radius: 2px;
+  background: #e5b507;
+  white-space: nowrap;
+  padding: ${({ big }) => (big ? "10px 30px" : "5px 15px")};
+  margin-right: 16px;
+  color: #010606;
+  font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
+  text-decoration: none;
+  outline: none;
+  border: 1px solid #e5b507;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+
+  @media screen and (max-width: 480px) {
+    margin-bottom: 16px;
+ 
+    white-space: normal;
+  }
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #728775;
+    border: 1px solid #010606;
+  }
+`;
+
 
 
 

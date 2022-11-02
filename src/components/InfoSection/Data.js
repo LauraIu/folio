@@ -42,7 +42,7 @@ export const PortfolioPage = {
     "This is my first portfolio made with ReactJs like a Frontend developer (I have made others before, with pure HTML & CSS ages ago). So it was fun to design it, embarrassing to have issues with router and a bit with responsive layout, but finally I found it pretty cool ;-)",
 
   buttonLabel1: "View Github repo",
-  buttonLabel2: "Plese, stay and look around!",
+  buttonLabel2: "Plese, look around!",
   dark: false,
   primary: false,
   darkText: true,

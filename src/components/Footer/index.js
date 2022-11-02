@@ -1,18 +1,12 @@
 import React from "react";
 import { animateScroll as scroll } from "react-scroll";
-import {
-  FaGithub,
-  FaFacebook,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
 import {
   FooterContainer,
   FooterWrap,
-  FooterLinksContainer,
-  FooterLinksWrapper,
   FooterLinksItems,
-  // FooterLinkTitle,
   FooterLink,
+  FooterContactLink,
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
@@ -34,29 +28,30 @@ const Footer = () => {
     // <IconContext.Provider value={{ color: "#f9f9f9"}}>
     <FooterContainer>
       <FooterWrap>
-        <FooterLinksContainer>
-          <FooterLinksWrapper>
-            <FooterLinksItems>
-              {/* <FooterLinkTitle>About me</FooterLinkTitle> */}
+        <FooterLinksItems>
+          <FooterLink to="#home" smooth>
+            Home
+          </FooterLink>
+          <span>|</span>
+          <FooterLink to="#about" smooth>
+            About
+          </FooterLink>
+          <span>|</span>
+          <FooterLink to="#projects" smooth>
+            DevProjects
+          </FooterLink>
+          <span>|</span>
+          <FooterLink to="#other" smooth>
+            OtherStuff
+          </FooterLink>
+          <span>|</span>
+          <FooterLink to="#cv" smooth>
+            CV
+          </FooterLink>
+        </FooterLinksItems>
 
-              <FooterLink to="#home" smooth>
-                Home
-              </FooterLink>
-              <span>|</span>
-              <FooterLink to="#about" smooth>
-                About
-              </FooterLink>
-              <span>|</span>
-              <FooterLink to="#projects" smooth>
-                DevProjects
-              </FooterLink>
-              <span>|</span>
-              <FooterLink to="#other" smooth>
-                OtherStuff
-              </FooterLink>
-            </FooterLinksItems>
-          </FooterLinksWrapper>
-        </FooterLinksContainer>
+        <FooterContactLink to="/contact">Contact me</FooterContactLink>
+
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
@@ -72,12 +67,6 @@ const Footer = () => {
               <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                 <FaFacebook />
               </SocialIconLink>
-              {/* <SocialIconLink href="/" target="_blank" aria-label="YouTube">
-                <FaYoutube />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Twitter">
-                <FaTwitter />
-              </SocialIconLink> */}
               <SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
                 <FaLinkedin />
               </SocialIconLink>

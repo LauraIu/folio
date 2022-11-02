@@ -10,8 +10,10 @@ export const About = {
   // lightTextDescription: true,
   topLine: "Hi there!",
   headLine: "I'm Laura Iuga",
+  topLine2: "html | css | styled-components |javascript | react | git",
+  headLine2: "My developer skills are under construction :-), but I'm using the tools listed below:",
   description:
-    'It was more than a year ago when I decided to change my workpath and achieve specific knowledge in web development to make things that I really like. I have an MA degree in Media Art and before I worked in marketing, archive digitization, data handling and researching, made freelance web and graphic designs, organized NGO projects, and so on. Like I\'m enthusiastic about "making things work" and have the desire to create amazing things from scratch, choosing the Front-End was more than evident for me. So I made my big step. After quitting my job I attended ',
+    "It was more than a year ago when I decided to change my workpath and achieve specific knowledge in web development to make things that I really like. I have an MA degree in Media Art and before I worked in marketing, archive digitization, data handling and researching, made freelance web and graphic designs, organized NGO projects, and so on. Like I'm enthusiastic about \"making things work\" and have the desire to create amazing things from scratch, choosing the Front-End was more than evident for me. So I made my big step. After quitting my job I attended",
   urlLink: "https://codecool.com",
   linkText: "Codecool",
   description2:
@@ -30,29 +32,30 @@ export const About = {
   img2:  require("../../images/skills.png"),
   alt2: "IuLa_skills.png",
   projectUrl1: new URL("https://github.com/LauraIu/"),
-  projectUrl2: new URL("mailto:iuga.laura.katalin@gmail.com"),
+  // urlLink: "/contact",
+  // // projectUrl2: new URL("mailto:iuga.laura.katalin@gmail.com"),
 };
 
-export const Skills = {
-  id: "skills",
-  lightBg: true,
-  lightText: false,
-  lightTextDescription: false,
-  topLine: "What i can do?",
-  headLine: "I'm new in the field, but hope enough old to handle...",
-  descriptionSkills:
-    "My levels of experience and knowledge in programming aren't the clear for me neather, so maybe is better to figure out together ;-)",
+// export const Skills = {
+//   id: "skills",
+//   lightBg: true,
+//   lightText: false,
+//   lightTextDescription: false,
+//   topLine: "What i can do?",
+//   headLine: "I'm new in the field, but hope enough old to handle...",
+//   descriptionSkills:
+//     "My levels of experience and knowledge in programming aren't the clear for me neather, so maybe is better to figure out together ;-)",
 
-  buttonLabel1: "Send me an email",
-  buttonLabel2: "Find me on LinkedIn",
-  dark: false,
-  primary: false,
-  darkText: true,
+//   buttonLabel1: "Send me an email",
+//   buttonLabel2: "Find me on LinkedIn",
+//   dark: false,
+//   primary: false,
+//   darkText: true,
 
-  imgStart: false,
-  img: require("../../images/skills.png"),
-  alt: "Skills",
-  // projectUrl1: new URL("https://github.com/LauraIu/osc-html-sctructure"),
-  // projectUrl2: new URL("https://github.com/LauraIu/osc-html-sctructure"),
-};
+//   imgStart: false,
+//   img: require("../../images/skills.png"),
+//   alt: "Skills",
+//   // projectUrl1: new URL("https://github.com/LauraIu/osc-html-sctructure"),
+//   // projectUrl2: new URL("https://github.com/LauraIu/osc-html-sctructure"),
+// };
 

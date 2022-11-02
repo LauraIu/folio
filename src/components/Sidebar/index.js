@@ -27,12 +27,12 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="#other" smooth onClick={toggle}>
             OtherStuff
           </SidebarLink>
-          <SidebarLink to="#contact" smooth onClick={toggle}>
+          <SidebarLink to="#cv" smooth onClick={toggle}>
             CV
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="#contact" >Contact me</SidebarRoute>
+          <SidebarRoute to="/contact" >Contact me</SidebarRoute>
         </SideBtnWrap>
 
       </SidebarWrapper>

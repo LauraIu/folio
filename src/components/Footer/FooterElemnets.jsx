@@ -11,44 +11,25 @@ export const FooterWrap = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1100px;
   margin: 0 auto;
-`;
 
-export const FooterLinksContainer = styled.div`
-  display: flex;
-  justify-content: center;
-
-  @media screen and (max-width: 820px) {
-    padding-top: 32px;
-  }
-`;
-
-export const FooterLinksWrapper = styled.div`
-  display: flex;
+  /* border:1px solid red; */
 `;
 
 export const FooterLinksItems = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 16px;
+  margin: 16px auto;
   text-align: center;
-  width: 160px;
   box-sizing: border-box;
   color: #728775;
 
   @media screen and (max-width: 420px) {
-    margin: 10px;
-    padding: 10px;
-    width: 100%;
+    margin: auto 0;
+    padding: 10px auto;
   }
 `;
-
-// export const FooterLinkTitle = styled.h1`
-//   font-size: 14px;
-//   margin-bottom: 16px;
-// `;
 
 export const FooterLink = styled(Link)`
   color: #728775;
@@ -56,12 +37,42 @@ export const FooterLink = styled(Link)`
   margin: 0.5rem;
   font-size: 14px;
 
-
   &:hover {
     color: #e5b507;
     transition: 0.3s ease-out;
   }
+
+  @media screen and (max-width: 480px) {
+    margin: 0.3rem;
+  }
 `;
+
+// contact button
+export const FooterContactLink = styled(Link)`
+  white-space: nowrap;
+  padding: 5px 15px;
+  margin-top: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  outline: none;
+  color: #010606;
+  background: #e5b507;
+  border: 1px solid #e5b507;
+
+  border-radius: 2px;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    color: #728775;
+    background: transparent;
+    border: 1px solid #728775;
+  }
+`;
+
+// social media div
 
 export const SocialMedia = styled.div`
   max-width: 1000px;
@@ -88,7 +99,7 @@ export const SocialLogo = styled(Link)`
   margin-bottom: 16px;
   font-weight: bold;
 
-  &:hover{
+  &:hover {
     color: #e5b507;
   }
 `;

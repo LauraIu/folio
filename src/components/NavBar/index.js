@@ -88,14 +88,14 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="#skills"
+                to="#cv"
                 smooth
                 duration={500}
                 
                 exact="true"
                 offset={0}
               >
-                Skills
+                CV
               </NavLinks>
             </NavItem>
           </NavMenu>
