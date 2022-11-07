@@ -1,22 +1,22 @@
 {
-  "main.css": "/portfolio/static/css/main.29a3fe1a.chunk.css",
-  "main.js": "/portfolio/static/js/main.628e90d1.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.628e90d1.chunk.js.map",
-  "static/js/1.ee91f811.chunk.js": "/portfolio/static/js/1.ee91f811.chunk.js",
-  "static/js/1.ee91f811.chunk.js.map": "/portfolio/static/js/1.ee91f811.chunk.js.map",
-  "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
-  "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
-  "static/media/webworks.png": "/portfolio/static/media/webworks.7b50e166.png",
-  "static/media/Iuga_Laura_portrait_04.png": "/portfolio/static/media/Iuga_Laura_portrait_04.4975dfef.png",
-  "static/media/skills.png": "/portfolio/static/media/skills.0ce690d4.png",
-  "static/media/video_07.mp4": "/portfolio/static/media/video_07.c6258666.mp4",
-  "static/media/OtherWorks_IuLa.png": "/portfolio/static/media/OtherWorks_IuLa.f78730b0.png",
-  "static/media/portfolio_iula.svg": "/portfolio/static/media/portfolio_iula.59f2d5bf.svg",
-  "static/media/Book_a_Table.svg": "/portfolio/static/media/Book_a_Table.16b06868.svg",
-  "static/media/Social_Media_Dashboard_desktop1440w_dark_theme.png": "/portfolio/static/media/Social_Media_Dashboard_desktop1440w_dark_theme.39cbaf70.png",
-  "static/media/interactive_rating_component.png": "/portfolio/static/media/interactive_rating_component.ecefe395.png",
-  "static/css/main.29a3fe1a.chunk.css.map": "/portfolio/static/css/main.29a3fe1a.chunk.css.map",
-  "index.html": "/portfolio/index.html",
-  "precache-manifest.b8497294ab5acff264e3d569db77237c.js": "/portfolio/precache-manifest.b8497294ab5acff264e3d569db77237c.js",
-  "service-worker.js": "/portfolio/service-worker.js"
+  "files": {
+    "main.css": "/portfolio/static/css/main.50bca76d.css",
+    "main.js": "/portfolio/static/js/main.db49a5d8.js",
+    "static/media/video_07.mp4": "/portfolio/static/media/video_07.4efcbc9266b05dca469b.mp4",
+    "static/media/portfolio_iula.svg": "/portfolio/static/media/portfolio_iula.c3989b815868c4f2fa53a3dc87c998e2.svg",
+    "static/media/Book_a_Table.svg": "/portfolio/static/media/Book_a_Table.c63c6b4ff77b65ce4f9146df87ac145e.svg",
+    "static/media/OtherWorks_IuLa.png": "/portfolio/static/media/OtherWorks_IuLa.0afb3025a13a83ce777a.png",
+    "static/media/Iuga_Laura_portrait_04.png": "/portfolio/static/media/Iuga_Laura_portrait_04.58fcf8a03bb6353d60fe.png",
+    "static/media/interactive_rating_component.png": "/portfolio/static/media/interactive_rating_component.1bf4aba889c576d50b90.png",
+    "static/media/webworks.png": "/portfolio/static/media/webworks.eda6557b7e2dd99c9826.png",
+    "static/media/Social_Media_Dashboard_desktop1440w_dark_theme.png": "/portfolio/static/media/Social_Media_Dashboard_desktop1440w_dark_theme.8d4d5b9ca61d845f0537.png",
+    "static/media/skills.png": "/portfolio/static/media/skills.2b56e5b34b98a834befc.png",
+    "index.html": "/portfolio/index.html",
+    "main.50bca76d.css.map": "/portfolio/static/css/main.50bca76d.css.map",
+    "main.db49a5d8.js.map": "/portfolio/static/js/main.db49a5d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50bca76d.css",
+    "static/js/main.db49a5d8.js"
+  ]
 }
