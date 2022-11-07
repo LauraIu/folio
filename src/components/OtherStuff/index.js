@@ -1,6 +1,5 @@
 import React from "react";
 import webworks from "../../images/webworks.png";
-import IuLa_profil from "../../images/Iuga_Laura_portrait_04.png";
 import OtherWorks_IuLa from "../../images/OtherWorks_IuLa.png";
 import {
   OtherContainer,
@@ -25,7 +24,7 @@ const Other = () => {
             {/* <OtherP>Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.</OtherP> */}
           </OtherCard>
           <OtherCard>
-            <OtherIcon src={IuLa_profil} />
+            <OtherIcon src={webworks} />
             <OtherH2>Art related projects</OtherH2>
             {/* <OtherP>Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.</OtherP> */}
           </OtherCard>

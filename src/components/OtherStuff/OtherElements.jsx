@@ -6,7 +6,7 @@ export const OtherContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
+  background: #f8f8f8;
 
   @media screen and (max-width: 768px) {
     height: 1100px;
@@ -27,6 +27,7 @@ padding: 0 50px;
 
 @media screen and (max-width: 1000px){
     grid-template-columns: 1fr 1fr;
+    
 }
 @media screen and (max-width: 768px){
     grid-template-columns: 1fr;
@@ -35,7 +36,7 @@ padding: 0 50px;
 `;
 
 export const OtherCard = styled.div`
-  background: #728775;
+  background: #010606;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -56,7 +57,7 @@ export const OtherIcon = styled.img`
   height: 180px;
   width: 180px;
   margin-bottom: 10px;
-  border: 1px solid #e5b507;
+  border: 1px solid #728775;
   border-radius:2px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 `;
@@ -77,10 +78,12 @@ export const OtherH1 = styled.h1`
 export const OtherH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
+  color: #728775;
 `;
 
 export const OtherP = styled.p`
   font-size: 1rem;
   text-align: center;
   color: red;
+  margin-bottom: 8px;
 `;

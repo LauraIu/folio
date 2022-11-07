@@ -7,8 +7,7 @@ import {
   SocialMediaDashboard,
   BookTable,
   InteractiveRatingComponent,
-  // Skills,
-  Contact,
+  
 } from "../components/InfoSection/Data";
 import Navbar from "../components/Navbar";
 import AboutSection from "../components/AboutSection";
@@ -38,7 +37,7 @@ const Home = () => {
       <InfoSection {...InteractiveRatingComponent} />
       <OtherStuff />
       {/* <InfoSection {...Skills} /> */}
-      <InfoSection {...Contact} />
+      {/* <InfoSection {...Contact} /> */}
 
       <Footer />
     </>

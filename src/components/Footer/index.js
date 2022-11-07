@@ -45,7 +45,7 @@ const Footer = () => {
             OtherStuff
           </FooterLink>
           <span>|</span>
-          <FooterLink to="#cv" smooth>
+          <FooterLink as="a" href="https://drive.google.com/file/d/1Z_TGkAUz9vRBfFgmaBmtoajRf3IEDZt-/view?usp=sharing" target="_blank" alt="Iuga Laura CV">
             CV
           </FooterLink>
         </FooterLinksItems>
@@ -61,13 +61,13 @@ const Footer = () => {
               IuLa&copy; {new Date().getFullYear()} All rights reserved.
             </WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href="/" target="_blank" aria-label="Github">
+              <SocialIconLink href="https://github.com/LauraIu" target="_blank" aria-label="Github">
                 <FaGithub />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+              <SocialIconLink href="https://www.facebook.com/laura.iuga.33" target="_blank" aria-label="Facebook">
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
+              <SocialIconLink href="https://www.linkedin.com/in/laura-iuga" target="_blank" aria-label="LinkedIn">
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>

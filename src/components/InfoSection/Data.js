@@ -150,25 +150,25 @@ export const Skills = {
   // projectUrl2: new URL("https://github.com/LauraIu/osc-html-sctructure"),
 };
 
-export const Contact = {
-  id: "contact",
-  lightBg: true,
-  lightText: false,
-  lightTextDescription: false,
-  topLine: "Let's connect!",
-  headLine: "Werry goo rddg gjfhjm, hgfg ffht kkrat!",
-  description:
-    "Jdghjd f ghf jffgd s rghkifér dgngj kr hrke ghtzzu de trakkr fessd ffjjkj ghjk naa!",
+// export const Contact = {
+//   id: "contact",
+//   lightBg: true,
+//   lightText: false,
+//   lightTextDescription: false,
+//   topLine: "Let's connect!",
+//   headLine: "Werry goo rddg gjfhjm, hgfg ffht kkrat!",
+//   description:
+//     "Jdghjd f ghf jffgd s rghkifér dgngj kr hrke ghtzzu de trakkr fessd ffjjkj ghjk naa!",
 
-  buttonLabel1: "Send me an email",
-  buttonLabel2: "Find me on LinkedIn",
-  dark: false,
-  primary: false,
-  darkText: true,
+//   buttonLabel1: "Send me an email",
+//   buttonLabel2: "Find me on LinkedIn",
+//   dark: false,
+//   primary: false,
+//   darkText: true,
 
-  imgStart: false,
-  img: require("../../images/rajzok.svg").default,
-  alt: "Opens project url in a new tab",
-  projectUrl1: new URL("mailto:iuga.laura.katalin@gmail.com"),
-  projectUrl2: new URL("https://www.linkedin.com/in/laura-iuga-2a53b919/"),
-};
+//   imgStart: false,
+//   img: require("../../images/rajzok.svg").default,
+//   alt: "Opens project url in a new tab",
+//   projectUrl1: new URL("mailto:iuga.laura.katalin@gmail.com"),
+//   projectUrl2: new URL("https://www.linkedin.com/in/laura-iuga-2a53b919/"),
+// };

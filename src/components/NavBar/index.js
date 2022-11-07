@@ -88,12 +88,8 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="#cv"
-                smooth
-                duration={500}
-                
-                exact="true"
-                offset={0}
+                as="a" href="https://drive.google.com/file/d/1Z_TGkAUz9vRBfFgmaBmtoajRf3IEDZt-/view?usp=sharing" target="_blank"
+                alt="Iuga Laura CV"
               >
                 CV
               </NavLinks>

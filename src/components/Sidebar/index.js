@@ -27,7 +27,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="#other" smooth onClick={toggle}>
             OtherStuff
           </SidebarLink>
-          <SidebarLink to="#cv" smooth onClick={toggle}>
+          <SidebarLink as="a" href="https://drive.google.com/file/d/1Z_TGkAUz9vRBfFgmaBmtoajRf3IEDZt-/view?usp=sharing" target="_blank" alt="Iuga Laura CV" onClick={toggle}>
             CV
           </SidebarLink>
         </SidebarMenu>

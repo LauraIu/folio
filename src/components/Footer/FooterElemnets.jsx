@@ -43,7 +43,7 @@ export const FooterLink = styled(Link)`
   }
 
   @media screen and (max-width: 480px) {
-    margin: 0.3rem;
+    margin: 0.2rem;
   }
 `;
 

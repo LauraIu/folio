@@ -34,7 +34,7 @@ const AboutSection = ({
   img,
   alt,
   dark,
-  projectUrl1,
+  cvUrl,
 }) => {
   return (
     <>
@@ -92,23 +92,20 @@ const AboutSection = ({
               </ImgWrap>
               <br />
               <TextWrapper 
-              // style={{ paddingLeft: "40px" }}
+              style={{ paddingLeft: "30px" }}
               >
-                <Heading
-                  style={{ fontSize: "18px", color: "#010606" }}
+                <TopLine
+                  // style={{color: "#010606" }}
                   lightText={lightText}
                 >
-                  {headLine2}
-                </Heading>
-                <TopLine style={{ color: "#f8f8f8" }}>{topLine2}</TopLine>
+                  {topLine2}
+                </TopLine>
+                <Heading style={{ fontSize: "18px", color: "#f8f8f8", marginBottom: "36px" }}>{headLine2}</Heading>
 
-                <AboutSubtitle>
-                  For my other skills and experienses please read my CV.{" "}
-                </AboutSubtitle>
                 <BtnWrap>
                   <ButtonToCv
                     as="a"
-                    href={projectUrl1}
+                    href={cvUrl}
                     target="_blank"
                     rel="noopener"
                   >

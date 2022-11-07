@@ -10,14 +10,14 @@ export const About = {
   // lightTextDescription: true,
   topLine: "Hi there!",
   headLine: "I'm Laura Iuga",
-  topLine2: "html | css | styled-components |javascript | react | git",
-  headLine2: "My developer skills are under construction :-), but I'm using the tools listed below:",
-  description:
-    "It was more than a year ago when I decided to change my workpath and achieve specific knowledge in web development to make things that I really like. I have an MA degree in Media Art and before I worked in marketing, archive digitization, data handling and researching, made freelance web and graphic designs, organized NGO projects, and so on. Like I'm enthusiastic about \"making things work\" and have the desire to create amazing things from scratch, choosing the Front-End was more than evident for me. So I made my big step. After quitting my job I attended",
+  headLine2: "HTML5 | CSS3 | JavaScript | React | Github",
+  topLine2: "My skills",
+  // description:
+  //   "It was more than a year ago when I decided to change my workpath and achieve specific knowledge in web development to make things that I really like. I have an MA degree in Media Art and before I worked in marketing, archive digitization, data handling and researching, made freelance web and graphic designs, organized NGO projects, and so on. Like I'm enthusiastic about \"making things work\" and have the desire to create amazing things from scratch, choosing the Front-End was more than evident for me. So I made my big step. After quitting my job I attended",
   urlLink: "https://codecool.com",
   linkText: "Codecool",
-  description2:
-    "'s Junior Front-End course. I have learned that building beautiful visual experiences and turning them interactive is a very complex workflow, but I've decided to make the magic happen. So here I am searching for opportunities to become an efficient part of your team where I can start my developer career! Please feel free to take a look at my CV to find out more about me.",
+  // description2:
+  //   "'s Junior Front-End course. I have learned that building beautiful visual experiences and turning them interactive is a very complex workflow, but I've decided to make the magic happen. So here I am searching for opportunities to become an efficient part of your team where I can start my developer career! Please feel free to take a look at my CV to find out more about me.",
   
   // I love bringing life and functionality to designs, building handsome visual experiences and turning them interactive.
   buttonLabel1: "Read my CV",
@@ -31,7 +31,7 @@ export const About = {
   alt: "IuLa_profil.png",
   img2:  require("../../images/skills.png"),
   alt2: "IuLa_skills.png",
-  projectUrl1: new URL("https://github.com/LauraIu/"),
+  cvUrl: new URL("https://drive.google.com/file/d/1Z_TGkAUz9vRBfFgmaBmtoajRf3IEDZt-/view?usp=sharing"),
   // urlLink: "/contact",
   // // projectUrl2: new URL("mailto:iuga.laura.katalin@gmail.com"),
 };
@@ -55,7 +55,7 @@ export const About = {
 //   imgStart: false,
 //   img: require("../../images/skills.png"),
 //   alt: "Skills",
-//   // projectUrl1: new URL("https://github.com/LauraIu/osc-html-sctructure"),
-//   // projectUrl2: new URL("https://github.com/LauraIu/osc-html-sctructure"),
+//   // projectUrl1: new URL("https://github.com/LauraIu/"),
+//   // projectUrl2: new URL("https://github.com/LauraIu/"),
 // };
 
