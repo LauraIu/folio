@@ -48,7 +48,7 @@ export const PortfolioPage = {
   darkText: true,
 
   imgStart: true,
-  img: require("../../images/portfolio_iula.svg").default,
+  img: require("../../images/portfolio_iula.png"),
   alt: "Portfolio IuLa",
   projectUrl1: new URL("https://github.com/LauraIu/portfolio"),
   projectUrl2: new URL("https://lauraiu.github.io/portfolio/"),
@@ -71,7 +71,7 @@ export const BookTable = {
   darkText: false,
 
   imgStart: false,
-  img: require("../../images/Book_a_Table.svg").default,
+  img: require("../../images/Book_a_Table.png"),
   alt: "Book a Table",
   projectUrl1: new URL("https://github.com/LauraIu/book-a-table"),
   projectUrl2: new URL("https://lauraiu.github.io/book-a-table/"),

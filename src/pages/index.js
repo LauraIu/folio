@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
 import {
-  // About,
   PortfolioPage,
   SocialMediaDashboard,
   BookTable,
@@ -29,15 +28,11 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <AboutSection {...About}/>
-      {/* <AboutSection {...Skills}/> */}
-      {/* <InfoSection {...About} /> */}
       <InfoSection {...PortfolioPage} />
       <InfoSection {...BookTable} />
       <InfoSection {...SocialMediaDashboard} />
       <InfoSection {...InteractiveRatingComponent} />
       <OtherStuff />
-      {/* <InfoSection {...Skills} /> */}
-      {/* <InfoSection {...Contact} /> */}
 
       <Footer />
     </>
