@@ -27,4 +27,7 @@ contact form ->> https://www.abstractapi.com/guides/react-send-email-from-your-a
 
 https://javascript.plainenglish.io/how-to-build-a-contact-form-in-react-that-sends-emails-using-emailjs-70011d2563a3
 
-"homepage": "http://LauraIu.github.io/portfolio",
+"homepage": "https://LauraIu.github.io/portfolio",
+
+"predeploy": "npm run build",
+    "deploy": "gh-pages -d build",

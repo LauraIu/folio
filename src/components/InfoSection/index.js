@@ -80,6 +80,8 @@ const InfoSection = ({
                     rel="noopener"
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
+
+                    alt={alt}
                   >
                     {buttonLabel2} &#160;
                     <MdOpenInNew />
