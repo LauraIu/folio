@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.50bca76d.css",
-    "main.js": "/portfolio/static/js/main.6975bc52.js",
-    "static/media/video_07.mp4": "/portfolio/static/media/video_07.4efcbc9266b05dca469b.mp4",
-    "static/media/portfolio_iula.png": "/portfolio/static/media/portfolio_iula.a2b4b2b189ff6fc7d5f2.png",
-    "static/media/Book_a_Table.png": "/portfolio/static/media/Book_a_Table.1049b313eb1770071565.png",
-    "static/media/OtherWorks_IuLa.png": "/portfolio/static/media/OtherWorks_IuLa.0afb3025a13a83ce777a.png",
-    "static/media/Iuga_Laura_portrait_04.png": "/portfolio/static/media/Iuga_Laura_portrait_04.58fcf8a03bb6353d60fe.png",
-    "static/media/interactive_rating_component.png": "/portfolio/static/media/interactive_rating_component.1bf4aba889c576d50b90.png",
-    "static/media/webworks.png": "/portfolio/static/media/webworks.eda6557b7e2dd99c9826.png",
-    "static/media/Social_Media_Dashboard_desktop1440w_dark_theme.png": "/portfolio/static/media/Social_Media_Dashboard_desktop1440w_dark_theme.8d4d5b9ca61d845f0537.png",
-    "static/media/skills.png": "/portfolio/static/media/skills.2b56e5b34b98a834befc.png",
+    "main.js": "/portfolio/static/js/main.0342c87b.js",
+    "static/media/video_07_small.mp4": "/portfolio/static/media/video_07_small.ee11f7663e57d204cf3f.mp4",
+    "static/media/portfolio_iula.png": "/portfolio/static/media/portfolio_iula.fb6665fe0eeac58e2895.png",
+    "static/media/Book_a_Table.png": "/portfolio/static/media/Book_a_Table.719b8f64b0c1e20b3733.png",
+    "static/media/OtherWorks_IuLa.png": "/portfolio/static/media/OtherWorks_IuLa.9074ab8812db13a17583.png",
+    "static/media/Iuga_Laura_portrait_04.png": "/portfolio/static/media/Iuga_Laura_portrait_04.42d02be804d7d7a87217.png",
+    "static/media/webworks.png": "/portfolio/static/media/webworks.559b63bef90cc5989502.png",
+    "static/media/interactive_rating_component.png": "/portfolio/static/media/interactive_rating_component.4475322bf09060d43727.png",
+    "static/media/Social_Media_Dashboard_desktop1440w_dark_theme.png": "/portfolio/static/media/Social_Media_Dashboard_desktop1440w_dark_theme.47be929a170d13290256.png",
     "index.html": "/portfolio/index.html",
     "main.50bca76d.css.map": "/portfolio/static/css/main.50bca76d.css.map",
-    "main.6975bc52.js.map": "/portfolio/static/js/main.6975bc52.js.map"
+    "main.0342c87b.js.map": "/portfolio/static/js/main.0342c87b.js.map"
   },
   "entrypoints": [
     "static/css/main.50bca76d.css",
-    "static/js/main.6975bc52.js"
+    "static/js/main.0342c87b.js"
   ]
 }
