@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const ContactContainer = styled.div`
- height: auto;
+  height: auto;
 
   position: fixed;
   top: 0;
@@ -14,7 +14,7 @@ export const ContactContainer = styled.div`
   background: #728775;
 `;
 
-export const FormWrap = styled.div`  
+export const FormWrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,9 +29,10 @@ export const Icon = styled(Link)`
   font-size: 32px;
 
   @media screen and (max-width: 480px) {
-    margin:8px 16px 0px 16px;
+    margin: 8px 16px 0px 16px;
   }
 `;
+
 export const FormContent = styled.div`
   min-height: 630px;
   display: flex;
@@ -71,7 +72,7 @@ export const FormH1 = styled.h1`
   text-align: center;
 
   @media screen and (max-width: 400px) {
-    margin-bottom: 16px;
+    margin-bottom: 16px;}
 `;
 
 export const FormLabel = styled.label`

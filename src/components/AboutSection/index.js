@@ -1,21 +1,13 @@
 import React from "react";
 import { ButtonToCv } from "../ButtonElements";
 import { MdOpenInNew } from "react-icons/md";
-
+import { Container, Column1, Column2, TextWrapper, TopLine, Link,
+  BtnWrap, ImgWrap, Img } from "../../globalStyle";
 import {
-  AboutContainer,
   AboutWrapper,
   AboutRow,
-  Column1,
-  Column2,
-  TextWrapper,
-  TopLine,
-  Heading,
-  AboutSubtitle,
-  Link,
-  BtnWrap,
-  ImgWrap,
-  Img,
+  AboutHeading,
+  AboutSubtitle
 } from "./AboutElements";
 
 const AboutSection = ({
@@ -38,13 +30,13 @@ const AboutSection = ({
 }) => {
   return (
     <>
-      <AboutContainer lightBg={lightBg} id={id}>
+      <Container lightBg={lightBg} id={id}>
         <AboutWrapper>
           <AboutRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
-                <Heading lightText={lightText}>{headLine}</Heading>
+                <AboutHeading lightText={lightText}>{headLine}</AboutHeading>
                 <AboutSubtitle darkText={darkText}>
                   I have an MA degree in Media Art and before I worked in
                   marketing, archive digitization, data handling and
@@ -100,7 +92,7 @@ const AboutSection = ({
                 >
                   {topLine2}
                 </TopLine>
-                <Heading style={{ fontSize: "18px", color: "#f8f8f8", marginBottom: "36px" }}>{headLine2}</Heading>
+                <AboutHeading style={{ fontSize: "18px", color: "#f8f8f8", marginBottom: "36px" }}>{headLine2}</AboutHeading>
 
                 <BtnWrap>
                   <ButtonToCv
@@ -117,7 +109,7 @@ const AboutSection = ({
             </Column2>
           </AboutRow>
         </AboutWrapper>
-      </AboutContainer>
+      </Container>
     </>
   );
 };

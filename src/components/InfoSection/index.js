@@ -1,11 +1,8 @@
 import React from "react";
 import { ButtonToUrl } from "../ButtonElements";
 import { MdOpenInNew } from "react-icons/md";
-
 import {
-  InfoContainer,
-  InfoWrapper,
-  InfoRow,
+  Container,
   Column1,
   Column2,
   TextWrapper,
@@ -16,7 +13,8 @@ import {
   BtnWrap,
   ImgWrap,
   Img,
-} from "./InfoElements";
+} from "../../globalStyle";
+import { InfoWrapper, InfoRow } from "./InfoElements";
 
 const InfoSection = ({
   lightBg,
@@ -41,14 +39,14 @@ const InfoSection = ({
 }) => {
   return (
     <>
-      <InfoContainer lightBg={lightBg} id={id}>
+      <Container lightBg={lightBg} id={id}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headLine}</Heading>
-                <Subtitle darkText={darkText} >
+                <Subtitle darkText={darkText}>
                   {description}
                   <Link
                     href={urlLink}
@@ -80,7 +78,6 @@ const InfoSection = ({
                     rel="noopener"
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
-
                     alt={alt}
                   >
                     {buttonLabel2} &#160;
@@ -96,7 +93,7 @@ const InfoSection = ({
             </Column2>
           </InfoRow>
         </InfoWrapper>
-      </InfoContainer>
+      </Container>
     </>
   );
 };

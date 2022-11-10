@@ -26,7 +26,7 @@ const Footer = () => {
   return (
     /* set the icons color */
     // <IconContext.Provider value={{ color: "#f9f9f9"}}>
-    <FooterContainer>
+    <FooterContainer id="footer">
       <FooterWrap>
         <FooterLinksItems>
           <FooterLink to="#home" smooth>
