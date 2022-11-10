@@ -1,13 +1,21 @@
 import React from "react";
 import { ButtonToCv } from "../ButtonElements";
 import { MdOpenInNew } from "react-icons/md";
-import { Container, Column1, Column2, TextWrapper, TopLine, Link,
-  BtnWrap, ImgWrap, Img } from "../../globalStyle";
+
 import {
+  Container,
+  Column1,
+  Column2,
   AboutWrapper,
   AboutRow,
+  TextWrapper,
+  TopLine,
   AboutHeading,
-  AboutSubtitle
+  AboutSubtitle,
+  Link,
+  BtnWrap,
+  ImgWrap,
+  Img,
 } from "./AboutElements";
 
 const AboutSection = ({
@@ -83,16 +91,22 @@ const AboutSection = ({
                 <Img src={img} alt={alt} />
               </ImgWrap>
               <br />
-              <TextWrapper 
-              style={{ paddingLeft: "30px" }}
-              >
+              <TextWrapper style={{ paddingLeft: "30px" }}>
                 <TopLine
                   // style={{color: "#010606" }}
                   lightText={lightText}
                 >
                   {topLine2}
                 </TopLine>
-                <AboutHeading style={{ fontSize: "18px", color: "#f8f8f8", marginBottom: "36px" }}>{headLine2}</AboutHeading>
+                <AboutHeading
+                  style={{
+                    fontSize: "18px",
+                    color: "#f8f8f8",
+                    marginBottom: "36px",
+                  }}
+                >
+                  {headLine2}
+                </AboutHeading>
 
                 <BtnWrap>
                   <ButtonToCv

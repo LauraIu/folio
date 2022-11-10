@@ -1,10 +1,13 @@
 import React from "react";
 import { ButtonToUrl } from "../ButtonElements";
 import { MdOpenInNew } from "react-icons/md";
+
 import {
   Container,
   Column1,
   Column2,
+  InfoWrapper,
+  InfoRow,
   TextWrapper,
   TopLine,
   Heading,
@@ -13,8 +16,7 @@ import {
   BtnWrap,
   ImgWrap,
   Img,
-} from "../../globalStyle";
-import { InfoWrapper, InfoRow } from "./InfoElements";
+} from "./InfoElements";
 
 const InfoSection = ({
   lightBg,

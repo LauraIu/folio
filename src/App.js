@@ -1,19 +1,18 @@
 import React from "react";
-import { GlobalStyle } from "./globalStyle.js";
+import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages";
 import ContactPage from "./pages/contact";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <GlobalStyle />
+    <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
 
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
